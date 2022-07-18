@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { Box } from "@mui/material";
 import Home from "./pages/Home";
 import ExerciseDetail from "./pages/ExerciseDetail";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer";
 import "./App.css";
 
