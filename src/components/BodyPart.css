@@ -1,0 +1,13 @@
+.body-part-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bodyPart-card {
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.bodyPart-card:hover {
+  transform: scale(1.1, 1.1);
+}
