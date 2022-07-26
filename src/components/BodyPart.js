@@ -7,7 +7,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
   return (
     <Stack
       type="button"
-      alignItem="center"
+      alignItems="center"
       justifyContent="center"
       className="bodyPart-card"
       sx={{
@@ -19,8 +19,21 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
         cursor: "pointer",
         gap: "47px",
       }}
+      onClick={() => {
+        setBodyPart(item);
+        window.scrollTo({ top: 1800 });
+      }}
     >
       <img src={Icon} alt="dumbbell" className="body-part-icon" />
+
+      <Typography
+        fontSize="24px"
+        fontWeight="bold"
+        color="#3A1212"
+        textTransform="capitalize"
+      >
+        {item}
+      </Typography>
     </Stack>
   );
 };
