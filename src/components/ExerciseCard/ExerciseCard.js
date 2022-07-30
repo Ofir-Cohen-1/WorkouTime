@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ExerciseCard = ({ exercise }) => {
   return (
     <Link className="exercise-card" to={`/exercise/${exercise.id}`}>
-      ExerciseCard
+      <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
     </Link>
   );
 };
