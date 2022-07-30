@@ -1,3 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
 img {
   width: 48px;
   height: 48px;
