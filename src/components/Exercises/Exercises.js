@@ -7,6 +7,10 @@ import ExerciseCard from "../ExerciseCard/ExerciseCard";
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const exercisesPerPage = 9;
+
+const indexOfLastExercise = currentPage * exercisesPerPage;
+const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
+
   const paginate = (e, value) => {
     setCurrentPage(value);
     window.scrollTo({ top: 1800, behavior: "smooth" });
