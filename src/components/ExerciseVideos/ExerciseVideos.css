@@ -3,7 +3,7 @@
   text-transform: capitalize;
 }
 
-.exercise-video {
+.exercise-videos {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .exercise-video {
+  .exercise-videos {
     width: 320px;
     height: 300px;
   }
