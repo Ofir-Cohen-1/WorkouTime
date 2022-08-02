@@ -1,0 +1,15 @@
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .detail-image {
+    width: 300px;
+    height: 300px;
+  }
+}
