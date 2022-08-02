@@ -11,10 +11,23 @@
   height: 381px;
   text-decoration: none;
 }
+.exercise-image {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 1200px) {
   .exercise-videos {
     width: 320px;
     height: 300px;
   }
+}
+
+.exercise-image {
+  width: 320px;
+  height: 300px;
 }
