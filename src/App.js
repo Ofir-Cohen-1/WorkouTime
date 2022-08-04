@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import Home from "./pages/Home";
 import ExerciseDetail from "./pages/ExerciseDetail";
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
