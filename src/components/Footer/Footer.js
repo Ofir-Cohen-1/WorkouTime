@@ -5,7 +5,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <Box mt="80px" bgcolor="#fff3f4">
+    <Box mt="80px">
       <Stack gap="40px" alignItems="center" px="40px" pt="24px">
         <img
           src={Logo}
