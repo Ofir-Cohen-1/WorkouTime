@@ -1,7 +1,8 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
-// import Icon from "../assets/icons/gym.png";
+import Icon from "../assets/icons/gym.png";
 import Cardio from "../assets/images/cardio.jpg";
+import NoPain from "../assets/images/no-pain-image.png";
 import "./BodyPart.css";
 
 const BodyPart = ({ item, setBodyPart, bodyPart }) => {
@@ -13,22 +14,24 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       className="bodyPart-card"
       sx={{
         borderTop: bodyPart === item ? "4px solid #ff2625" : "",
-        backgroundColor: "#fff",
+        backgroundColor: "#f5f5f5",
         borderBottomLeftRadius: "20px",
         width: "270px",
         height: "280px",
         cursor: "pointer",
-        gap: "47px",
+        gap: "30px",
       }}
       onClick={() => {
         setBodyPart(item);
         window.scrollTo({ top: 1800, left: 100, behavior: "smooth" });
       }}
     >
-      <img src={Cardio} alt="dumbbell" className="body-part-icon" />
+      <img src={NoPain} alt="dumbbell" className="body-part-icon" />
 
       <Typography
         fontSize="24px"
+        lineHeight="0px"
+        mt="-20px"
         fontWeight="bold"
         color="#3A1212"
         textTransform="capitalize"

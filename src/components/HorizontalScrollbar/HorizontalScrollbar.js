@@ -38,7 +38,7 @@ const HorizontalScrollbar = ({ data, bodyPart, setBodyPart, isBodyParts }) => {
           m="0 40px"
         >
           {isBodyParts ? (
-            <BodyPart
+            <BodyPart m="40px"
               item={item}
               bodyPart={bodyPart}
               setBodyPart={setBodyPart}

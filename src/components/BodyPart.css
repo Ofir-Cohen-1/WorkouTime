@@ -6,8 +6,10 @@
 }
 
 .body-part-icon {
-  width: 270px;
-  height: 200px;
+  position: relative;
+  bottom:20px;
+  width: 150px;
+  height: 170px;
 }
 
 .bodyPart-card {
@@ -16,5 +18,5 @@
 }
 
 .bodyPart-card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.06, 1.06);
 }
