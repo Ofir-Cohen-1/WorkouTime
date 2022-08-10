@@ -1,7 +1,5 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
-import Icon from "../assets/icons/gym.png";
-import Cardio from "../assets/images/cardio.jpg";
 import NoPain from "../assets/images/no-pain-image.png";
 import "./BodyPart.css";
 
