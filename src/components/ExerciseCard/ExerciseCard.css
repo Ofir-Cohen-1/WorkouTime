@@ -1,12 +1,11 @@
- * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  
-  }
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 
 .exercise-card {
-  width: 400px;
+  width: 350px;
   height: 445px;
   background: #fff;
   border-top: 4px solid #ff2625;
@@ -30,8 +29,15 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .exercise-card img {
+    display: flex;
+    margin-left: 0px;
+    width: 320px;
+  }
+
   .exercise-card {
     width: 320px;
+    display: flex;
   }
 }
 
