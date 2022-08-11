@@ -3,7 +3,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import "./ExerciseVideos.css";
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
-    console.log(exerciseVideos);
+  console.log(exerciseVideos);
   if (!exerciseVideos.length) return "Loading...";
 
   return (
@@ -16,7 +16,11 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         justifyContent="flex-start"
         flexWrap="wrap"
         alignItems="center"
-        sx={{ flexDirection: { lg: "row" }, gap: { lg: "110px", xs: "0" } }}
+        sx={{
+          flexDirection: { lg: "row" },
+          gap: { lg: "110px", xs: "60px" },
+          mb: "30px",
+        }}
       >
         {exerciseVideos?.slice(0, 3).map((item, index) => (
           <a
@@ -26,14 +30,18 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="exercise-image" src={item.video.thumbnails[0].url} alt={item.video.title} />
+            <img
+              className="exercise-image"
+              src={item.video.thumbnails[0].url}
+              alt={item.video.title}
+            />
             <Box>
-                <Typography variant="h5" color="#000">
-                    {item.video.title}
-                </Typography>
-                <Typography variant="h6" color="#000">
-                    {item.video.channelName}
-                </Typography>
+              <Typography variant="h5" color="#000">
+                {item.video.title}
+              </Typography>
+              <Typography variant="h6" color="#000">
+                {item.video.channelName}
+              </Typography>
             </Box>
           </a>
         ))}

@@ -6,7 +6,7 @@
 .exercise-videos {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 10px;
   width: 387px;
   height: 381px;
   text-decoration: none;
@@ -24,6 +24,8 @@
   .exercise-videos {
     width: 320px;
     height: 300px;
+    margin-left:30px;
+    /* margin-top: 55px; */
   }
 }
 
