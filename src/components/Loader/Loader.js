@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Stack, Typography } from "@mui/material";
+import { Stack } from "@mui/material";
 import { InfinitySpin } from "react-loader-spinner";
 
 const Loader = () => {
