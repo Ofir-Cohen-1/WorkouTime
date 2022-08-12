@@ -17,7 +17,7 @@ const Navbar = () => {
       px="20px"
     >
       <Link to="/">
-        <img src={Logo} alt="logo" />
+        <img src={Logo} alt="logo" className="logo" />
       </Link>
 
       <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">

@@ -7,6 +7,11 @@
   display: flex;
   flex-wrap: wrap;
 } */
+.react-horizontal-scrolling-menu--scroll-container {
+  width: 1400px;
+
+}
+
 
 @media (max-width: 1200px) {
   .react-horizontal-scrolling-menu--scroll-container {
