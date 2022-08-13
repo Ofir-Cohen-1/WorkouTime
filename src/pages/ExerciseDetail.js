@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Box, Stack, Typography } from "@mui/material";
-import { exerciseOptions, fetchData, youtubeOptions } from "../utils/FetchData";
+import { Box } from "@mui/material";
+import { exerciseOptions, fetchData, youtubeOptions } from "../utils/FetchData/FetchData";
 import Detail from "../components/Detail/Detail";
 import ExerciseVideos from "../components/ExerciseVideos/ExerciseVideos";
 import SimilarExercises from "../components/SimilarExercises/SimilarExercises";

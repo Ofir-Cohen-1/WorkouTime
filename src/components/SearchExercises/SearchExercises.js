@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Box, Stack, Typography, Button, TextField } from "@mui/material";
-import { exerciseOptions, fetchData } from "../../utils/FetchData";
+import { exerciseOptions, fetchData } from "../../utils/FetchData/FetchData";
 import HorizontalScrollbar from "../HorizontalScrollbar/HorizontalScrollbar";
 import "./SearchExercises.css";
 
